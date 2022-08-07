@@ -1,0 +1,206 @@
+imspa@RithikPC MINGW64 ~ (master)
+$ cd cc_ubuntu/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ vi demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ vi demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat demo.txt
+helll
+o
+dear
+
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat
+hello
+hello
+sale'
+sale'
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat > demo2.txt
+hello there
+rishabh
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat demo2.txt
+hello there
+rishabh
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ wc demo2.txt
+ 2  3 20 demo2.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ wc demo.txt
+ 4  3 14 demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat demo.txt
+helll
+o
+dear
+
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ grep -i "hell" demo.txt demo2.txt
+demo.txt:helll
+demo2.txt:hello there
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ grep -i "helll" demo.txt demo2.txt
+demo.txt:helll
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ pwd
+/c/Users/imspa/cc_ubuntu
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ man
+bash: man: command not found
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ mv demo2.txt nina.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+-rw-r--r-- 1 imspa 197609 20 Aug  4 19:51 nina.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cat nina.txt
+hello there
+rishabh
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ mkdir folder
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ mv nina.txt folder/nina.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ lsc -l
+bash: lsc: command not found
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+drwxr-xr-x 1 imspa 197609  0 Aug  4 19:58 folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l folder/
+total 1
+-rw-r--r-- 1 imspa 197609 20 Aug  4 19:51 nina.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ du'
+> ^C
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ du
+1       ./folder
+2       .
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ du 1
+du: cannot access '1': No such file or directory
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ du folder/
+1       folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -al
+total 17
+drwxr-xr-x 1 imspa 197609  0 Aug  4 19:58 ./
+drwxr-xr-x 1 imspa 197609  0 Aug  4 19:50 ../
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+drwxr-xr-x 1 imspa 197609  0 Aug  4 19:58 folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cal
+bash: cal: command not found
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ rm -rf folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ mkdir folder
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+drwxr-xr-x 1 imspa 197609  0 Aug  4 20:00 folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ mv demo.txt folder/demo.txt
+
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l
+total 0
+drwxr-xr-x 1 imspa 197609 0 Aug  4 20:01 folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ ls -l folder/
+total 1
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ rm folder/
+rm: cannot remove 'folder/': Is a directory
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cd folder/l
+bash: cd: folder/l: No such file or directory
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ cd folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu/folder (master)
+$ pwd
+/c/Users/imspa/cc_ubuntu/folder
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu/folder (master)
+$ lsv -l
+bash: lsv: command not found
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu/folder (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 imspa 197609 14 Aug  4 19:50 demo.txt
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu/folder (master)
+$ rm *
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu/folder (master)
+$ cd ..
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ rm folder/
+rm: cannot remove 'folder/': Is a directory
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ rm -f folder/
+rm: cannot remove 'folder/': Is a directory
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$ rm -rf folder/
+
+imspa@RithikPC MINGW64 ~/cc_ubuntu (master)
+$
